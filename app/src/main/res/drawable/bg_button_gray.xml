@@ -1,0 +1,15 @@
+<!-- res/drawable/bg_button_gray.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/g_primary_dark"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/g_primary"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+</selector>

@@ -17,17 +17,32 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
 
     <Button
         android:id="@+id/btnLogin"
         android:text="Iniciar sesión"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFFFF"
+        android:backgroundTint="#800000" />
 
     <Button
         android:id="@+id/btnToRegister"
         android:text="Crear cuenta"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFFFF"
+        android:backgroundTint="#800000" />
 </LinearLayout>
